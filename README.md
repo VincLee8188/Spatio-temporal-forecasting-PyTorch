@@ -8,3 +8,11 @@ The first one is devised on the basis of Diffusion Convolutional Recurrent Neura
 In the second model, it captures the spatial dependency using graph convolutional neural network, and the temporal dependency using transformer. The code of this model is included in `transformer.py`.
 
 The problem defined in this repository and the folder structure are the same as [STGCN](https://github.com/VeritasYin/STGCN_IJCAI-18), please refer to that repository for further details.
+
+## Requirements
+
+* PyTorch
+* Numpy
+* Pandas
+* Scipy
+* Matplotlib
