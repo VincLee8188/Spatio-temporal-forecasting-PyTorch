@@ -10,7 +10,6 @@ In the second model, it captures the spatial dependency using graph convolutiona
 The problem defined in this repository and the folder structure are the same as [STGCN](https://github.com/VeritasYin/STGCN_IJCAI-18), please refer to that repository for further details.
 
 ## Requirements
-
 * PyTorch
 * Numpy
 * Pandas
