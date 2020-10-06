@@ -75,7 +75,7 @@ if __name__ == '__main__':
     if args.model_type == 'gcn_gru':
         model = DCRNNModel(graph_kernel, input_dim=1, output_dim=1, seq_len=n_his, horizon=n_pred, rnn_units=rnn_units,
                            num_rnn_layers=num_rnn_layers, num_nodes=n, cl_decay_steps=args.cl_decay_steps,
-                           use_curriculum_learning=ucl, use_attention=use_attention, function=function).to(device)
+                           use_curriculum_learning=ucl, function=function).to(device)
         train_model(model, dataloaders, dataset_sizes, args, stats)
         print(args)
         print(f'The model has {count_parameters(model)} parameters')
